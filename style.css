@@ -1,0 +1,14 @@
+.brand-area{
+ 
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+}
+.nav-item a i{
+  font-size:20px !important;
+}
+.form-size{
+  max-width: 580px !important;
+  margin: 0 auto !important;
+}
