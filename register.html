@@ -80,44 +80,79 @@
           </form>
         </div>
       </section>
-      <section class="register-form m-5">
-        <div class="container">
-            <div class="card text-white bg-success mb-3">
+      <section class="register-form bg-success p-5 mt-5">
+        <h1 class="text-center text-white">রেজিষ্ট্রেশন করুন</h1>
+        <div class="container-fluid d-flex  justify-content-center bg-success shadow-sm">
+          
+            <div class="card text-success shadow-sm  m-5" style="max-width: 660px;">
                 <div class="card-header">Register</div>
                 <div class="card-body">
                     <form>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Email</span>
+                            <input type="email" class="form-control" placeholder="Username" aria-label="Email" aria-describedby="basic-addon1">
                           </div>
                           
                           <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2">@example.com</span>
-                          </div>
-                          
-                          <label for="basic-url" class="form-label">Your vanity URL</label>
-                          <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                            
+                            <input type="text" class="form-control" placeholder="E.G Shimul Kanon" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">Full Name</span>
+                            
                           </div>
                           
                           <div class="input-group mb-3">
-                            <span class="input-group-text">$</span>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                            <span class="input-group-text">.00</span>
+                            <span class="input-group-text" id="basic-addon3">Phone</span>
+                            <input type="text" class="form-control" placeholder="01xxxxxxxxx" id="basic-url" aria-describedby="basic-addon3">
                           </div>
-                          
+                        
                           <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                            <span class="input-group-text">@</span>
-                            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                            <div class="input-group-prepend">
+                              <label class="input-group-text" for="inputGroupSelect01">বিভাগ</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>বিভাগ নির্বাচন করুন</option>
+                              <option value="1">Rajshahi</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label class="input-group-text" for="inputGroupSelect01">জেলা</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>জেলা নির্বাচন করুন</option>
+                              <option value="1">Rajshahi</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div> 
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <label class="input-group-text" for="inputGroupSelect01">উপজেলা</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>উপজেলা নির্বাচন করুন</option>
+                              <option value="1">Rajshahi</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                              <label class="input-group-text" for="inputGroupSelect01">@</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>থানা নির্বাচন করুন</option>
+                              <option value="1">Rajshahi</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div> 
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon2">গ্রাম</span>
+                            <input type="text" class="form-control" placeholder="গ্রাম" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@</span>
+                            <input type="text" class="form-control" placeholder="পোষ্টকোড" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
+                          </div>   
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
                           </div>
-                          
-                          <div class="input-group">
-                            <span class="input-group-text">With textarea</span>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>                    
                     </div>
                     </form>
                   
