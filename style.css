@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Sagar;
+  src: url(fonts/sagarnormal.ttf);
+}
+body{font-family: Sagar;}
 .brand-area{
  
   top: 25%;
@@ -11,4 +16,18 @@
 .form-size{
   max-width: 580px !important;
   margin: 0 auto !important;
+}
+.zilla-word-item{
+  font-size: 20px;
+  text-decoration: none;
+}
+.word-list ul{
+  list-style: none;
+  padding: 0 !important;
+}
+.word-list ul li a span{
+  text-decoration: underline;
+}
+.word-list-title{
+  border-radius: 30px;
 }
