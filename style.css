@@ -2,7 +2,8 @@
   font-family: Sagar;
   src: url(fonts/sagarnormal.ttf);
 }
-body{font-family: Sagar;}
+body{font-family: Sagar; font-weight: 300;}
+ul{list-style:none;}
 .brand-area{
  
   top: 25%;
@@ -30,4 +31,13 @@ body{font-family: Sagar;}
 }
 .word-list-title{
   border-radius: 30px;
+}
+
+.the-details .word-text strong{
+  font-size: 40px;
+  font-weight: 700;
+}
+.the-details .word-text p{
+  font-size: 25px;
+
 }
