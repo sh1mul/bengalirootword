@@ -81,84 +81,78 @@
         </div>
       </section>
       <section class="register-form bg-success p-5 mt-5">
-        <h1 class="text-center text-white">রেজিষ্ট্রেশন করুন</h1>
-        <div class="container-fluid d-flex  justify-content-center bg-success shadow-sm">
-          
-            <div class="card text-success shadow-sm  m-5" style="max-width: 660px;">
-                <div class="card-header">Register</div>
-                <div class="card-body">
-                    <form>
-                          
-                          <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">Email</span>
-                            <input type="email" class="form-control" placeholder="Username" aria-label="Email" aria-describedby="basic-addon1">
-                          </div>
-                          
-                          <div class="input-group mb-3">
-                            
-                            <input type="text" class="form-control" placeholder="E.G Shimul Kanon" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2">Full Name</span>
-                            
-                          </div>
-                          
-                          <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon3">Phone</span>
-                            <input type="text" class="form-control" placeholder="01xxxxxxxxx" id="basic-url" aria-describedby="basic-addon3">
-                          </div>
-                        
-                          <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                              <label class="input-group-text" for="inputGroupSelect01">বিভাগ</label>
-                            </div>
-                            <select class="custom-select" id="inputGroupSelect01">
-                              <option selected>বিভাগ নির্বাচন করুন</option>
-                              <option value="1">Rajshahi</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                            <label class="input-group-text" for="inputGroupSelect01">জেলা</label>
-                            <select class="custom-select" id="inputGroupSelect01">
-                              <option selected>জেলা নির্বাচন করুন</option>
-                              <option value="1">Rajshahi</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                          </div> 
-                          <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                              <label class="input-group-text" for="inputGroupSelect01">উপজেলা</label>
-                            </div>
-                            <select class="custom-select" id="inputGroupSelect01">
-                              <option selected>উপজেলা নির্বাচন করুন</option>
-                              <option value="1">Rajshahi</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                              <label class="input-group-text" for="inputGroupSelect01">@</label>
-                            <select class="custom-select" id="inputGroupSelect01">
-                              <option selected>থানা নির্বাচন করুন</option>
-                              <option value="1">Rajshahi</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                          </div> 
-                          <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon2">গ্রাম</span>
-                            <input type="text" class="form-control" placeholder="গ্রাম" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2">@</span>
-                            <input type="text" class="form-control" placeholder="পোষ্টকোড" aria-label="E.G Shimul Kanon" aria-describedby="basic-addon2">
-                          </div>   
-                          <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                          </div>
-                          <button type="submit" class="btn btn-primary">Submit</button>                    
-                    </div>
-                    </form>
-                  
-                </div>
+        <div class="container text-white text-bold">
+          <h1 class="text-center">নিবন্ধন করুন</h1>
+          <form>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">পূর্ণ নাম</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">মোবাইল</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="01xxxxxxxxx">
+              </div>
+            </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">ই-মেইল</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">পাসওয়ার্ড</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label for="inputAddress">গ্রাম</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputAddress2">পোষ্ট অফিস</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputAddress2">ইউনিয়ন</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+            </div>
             
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="district">State</label>
+                <select id="district" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="district">State</label>
+                <select id="district" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
       </section>
       <section class="bottom-links bg-dark p-5">
         <div class="container">
